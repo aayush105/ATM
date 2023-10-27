@@ -8,7 +8,8 @@ This repository contains a simple ATM system implemented in C++. The system allo
 - [Description](#description)
 - [Features](#features)
 - [Getting Started](#getting-started)
-
+- [Usage](#usage)
+  
 ## Description
 
 The ATM system is a console-based application written in C++. It simulates an automated teller machine that enables users to perform various banking operations. The code implements basic functionalities such as user authentication, cash withdrawal, and balance checks. Data is stored and retrieved using a file-based approach.
@@ -32,7 +33,7 @@ To get started with the ATM system, ensure that you have a C++ compiler installe
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/username/repository.git
+   git clone git@github.com:aayush105/ATM.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -40,8 +41,19 @@ To get started with the ATM system, ensure that you have a C++ compiler installe
    ```
 3. Compile the code using a C++ compiler:
    ```sh
-   g++ filename.cpp -o output
+   g++ project.cpp -o output
    ```
+   
+## Usage
 
+1. Run the compiled executable:
+
+   ```bash
+   ./output
+2. Follow the on-screen instructions to interact with the ATM system.
+
+3. Perform operations such as cash withdrawal and balance checks by entering the appropriate options.
+
+4. To access the system, use the provided user ID and PIN.
    
    
